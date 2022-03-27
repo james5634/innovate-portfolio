@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="{{ url_for('static',filename = 'main.css') }}">
-    <!-- <script src="./app.js"></script> -->
-    <script src="{{ url_for('static',filename = 'app.js') }}"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Events</title>
-</head>
+{% extends 'base.html' %}
+
+{% block content %}
 <body onload="checkCookies()">
     <div class="flex-container-h">
     <div>
@@ -76,4 +68,4 @@
     </div>
     </div>
 </body>
-</html>
+{% endblock %}

@@ -11,7 +11,15 @@
 <body>
     <nav>
         <a href="{{ url_for('home')}}">HOME</a>
+        <a href="{{ url_for('create')}}">NEW POST</a>
     </nav>
+    <div class="content">
+        {% for message in get_flashed_messages() %}
+        <div class="alert">
+            {{ message}}
+        </div>
+        {% endfor %}
+    </div>
     <div>
         {% block content %} {% endblock %}
     </div>

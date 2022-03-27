@@ -20,9 +20,25 @@ app.register_blueprint(views, url_prefix = "/")
 def home():
     return render_template("index.html")
 
-@app.route("/test")
-def james_page():
-    return render_template("test.html", favourite_thing = "Pizza")
+@app.route("/two")
+def test_page():
+    return render_template("index.html")
+
+@app.route("/three")
+def three_page():
+    return render_template("index.html")
+
+@app.route("/four")
+def four_page():
+    return render_template("index.html")
+
+@app.route("/five")
+def five_page():
+    return render_template("index.html")
+
+@app.route("/admin")
+def admin_page():
+    return render_template("index.html")
 
 
 ##################################

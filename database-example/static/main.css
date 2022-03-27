@@ -3,3 +3,10 @@
     margin: 5px;
     background-color: aliceblue;
 }
+
+.alert {
+    padding: 20px;
+    margin: 5px;
+    color: yellow;
+    background-color: black;
+}
