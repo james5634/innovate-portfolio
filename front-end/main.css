@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(235, 219, 199);
+}
+
+h1 {
+    color: blue;
+    font-size: 48px;
+}
+
+h1,h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;
+    color: crimson;
+}
+
+.big-p{
+    color: rgb(195, 0, 255);
+    background-color: rgb(255, 255, 255);
+}
+#middle_text{
+    text-align: center;
+}
+
+header p{
+    color: darkgreen;
+    text-decoration: wavy;
+}
+h2:hover{
+    color: deeppink;
+    text-decoration: none;
+    font-size: 48px;
+    cursor: pointer;
+}
+h2:active{
+    color: steelblue;
+    text-decoration: none;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.content{
+    width: auto;
+    height: auto;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: left;
+    height: 19vh;
+}
+
+/* .container{
+    display: flex;
+    min-height:  50vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+.container {
+    display: flex;
+    min-height: 10vh;
+    max-height: 50vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; 
+}
+.box{
+    background-color: aliceblue;
+    width: 400px;
+}
+
+.flex-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgba(255, 255, 255, 0.726);
+    font-family: inherit;
+    font-size: 25px;
+}
+.nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.nav a:hover{
+    color: rgb(255, 255, 255);
+}

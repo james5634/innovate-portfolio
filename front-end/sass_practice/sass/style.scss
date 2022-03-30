@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+$myFont: monospace;
+$myFontSize: 12px;
+$backgoundColour: #331818;
+$accentColour: #dad9b7;
+$fontColour: #f0c066;
+
+$headingFont: 'Righteous', monospace;
+$mainFont : monospace;
+
+@mixin title{
+    font-family: $headingFont;
+    color: $fontColour;
+    border: 1vh double $accentColour;
+}
+

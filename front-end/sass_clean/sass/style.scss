@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+$myFont: monospace;
+$myFontSize: 12px;
+$backgoundColour: #242F42;
+$accentColour: #B7D1DA;
+$fontColour: #FFA69E;
+
+$headingFont: 'Bebas Neue', monospace;
+$mainFont : monospace;
+
+@mixin title{
+    font-family: $headingFont;
+    color: $fontColour;
+    border: 3px double $accentColour;
+}

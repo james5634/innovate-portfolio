@@ -1,0 +1,38 @@
+body{
+    color: red;
+    background-color: azure;
+}
+
+.title , .subtitle{
+    padding: 3vh;
+}
+img{
+    width: 10em;
+    height: 10em;
+    padding: 3vh;
+}
+
+@media (orientation: landscape){
+    body{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 390px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+@media (orientation: portrait){
+    
+}

@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+h1 {
+  font-family: "Righteous", monospace;
+  color: #f0c066;
+  border: 1vh double #dad9b7;
+  font-size: 6vh;
+  text-align: left;
+}
+
+h2 {
+  font-family: "Righteous", monospace;
+  color: #f0c066;
+  border: 1vh double #dad9b7;
+  font-size: 3vh;
+  text-align: right;
+}
+
+body {
+  background-color: #331818;
+}
+
+p {
+  font-family: monospace;
+  color: antiquewhite;
+}
+
+.one, .two, .three {
+  padding: 1vh 2vh;
+  font-size: 2vh;
+  border-radius: 8px;
+  font-family: monospace;
+  background-color: darkolivegreen;
+  border: 2vh darkblue;
+}
+
+.two {
+  background-color: blueviolet;
+}
+
+.three {
+  background-color: bisque;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=main.css.map */

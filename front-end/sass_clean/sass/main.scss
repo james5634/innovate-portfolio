@@ -1,0 +1,36 @@
+@import "style";
+
+h1{
+    @include title;
+    font-size: 6vh;
+    text-align: left;
+}
+h2{
+    @include title;
+    font-size: 3vh;
+    text-align: right;
+}
+
+body{
+    background-color: $backgoundColour
+}
+
+p{
+    font-family: $mainFont;
+    color: $fontColour;
+}
+
+.one{
+    padding: 1vh 2vh;
+    font-size: 2vh;
+    border-radius: 8px;
+    font-family: $mainFont;
+}
+.two{
+    @extend .one;
+    background-color: blueviolet;
+}
+.three{
+    @extend .one;
+    background-color: bisque;
+}

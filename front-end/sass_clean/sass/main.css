@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+h1 {
+  font-family: "Bebas Neue", monospace;
+  color: #FFA69E;
+  border: 3px double #B7D1DA;
+  font-size: 6vh;
+  text-align: left;
+}
+
+h2 {
+  font-family: "Bebas Neue", monospace;
+  color: #FFA69E;
+  border: 3px double #B7D1DA;
+  font-size: 3vh;
+  text-align: right;
+}
+
+body {
+  background-color: #242F42;
+}
+
+p {
+  font-family: monospace;
+  color: #FFA69E;
+}
+
+.one, .two, .three {
+  padding: 1vh 2vh;
+  font-size: 2vh;
+  border-radius: 8px;
+  font-family: monospace;
+}
+
+.two {
+  background-color: blueviolet;
+}
+
+.three {
+  background-color: bisque;
+}
+/*# sourceMappingURL=main.css.map */

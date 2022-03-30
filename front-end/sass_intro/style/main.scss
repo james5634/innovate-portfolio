@@ -1,0 +1,24 @@
+@import"colors";
+
+$myFont: monospace;
+$myFontSize: 5em;
+$backgoundColour: 178, 237, 197;
+$accentColour:97, 41, 64;
+$fontColour: 15, 17, 12;
+
+h1 {
+    font-family: $myFont;
+    font-size: $myFontSize;
+    color: $fontColour;
+}
+
+body{
+    background-color: $backgoundColour;
+}
+
+.header{
+    border: 3em solid $accentColour;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
