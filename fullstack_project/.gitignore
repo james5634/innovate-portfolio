@@ -1,1 +1,4 @@
 /fullstack_venv
+__pycahe__/
+schema.sql
+init_db.py

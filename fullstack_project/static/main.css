@@ -10,7 +10,6 @@
 body {
    background-color: var(--clr-light);
    color: var(--clr-dark);
-   /* transition: all 0.5s ease; */
 }
 
 .dark-mode{
@@ -113,7 +112,6 @@ p {
     position: absolute;
     top: 0;
     right: 0;
-    /* left: 0; */
     z-index: 10;
 
     margin: 8px;
@@ -237,7 +235,6 @@ p {
     }
 
     .blog_pages{
-        /* max-width: 1400px; */
         margin: 0 100px;
     }
 
@@ -279,7 +276,6 @@ p {
     padding: 10px  10px 5px 10px;
 }
 .float_left_hamburger{
-    /* transform: translatex(-100px); */
     border: solid;
     border-color: var(--clr-dark);
 }
