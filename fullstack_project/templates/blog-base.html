@@ -48,10 +48,10 @@
     <div id="blog-bar" >
         <nav class="nav_bar">
             <a href="{{ url_for('blog')}}">
-                <button class="blog_button">Blog</button>
+                <button class="nav_button">Blog</button>
             </a>
             <a href="{{ url_for('create')}}">
-                <button class="blog_button">New Post</button>
+                <button class="nav_button">New Post</button>
             </a>
         </nav>
     </div>
@@ -60,6 +60,9 @@
 
     <div id="main-bar-float">
         <nav id="nav-bar-float" class="nav_bar">
+            <a href="{{url_for('home')}}">
+                <button class="nav_button">Home</button>
+            </a>
             <a href="{{ url_for('blog')}}">
                 <button class="nav_button">Blog</button>
             </a>
@@ -67,11 +70,6 @@
                 <button class="nav_button">New Post</button>
             </a>
 
-            <a href="{{url_for('home')}}">
-                <button class="nav_button">Home</button>
-            </a>
-
-            </a>
         </nav>
     </div>
 

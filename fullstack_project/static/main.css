@@ -3,8 +3,8 @@
     --clr-light: #FEFAE0;
     --clr-dark: #283618;
     --clr-primary: #606C38;
-    --clr-accent:#BC6C25;
-    --clr-accent-light:#DDA15E;
+    --clr-accent:#93987C;
+    --clr-accent-light:#c1c7a5;
 }
 
 body {
@@ -17,8 +17,8 @@ body {
     --clr-light: #283618;
     --clr-dark: #FEFAE0;
     --clr-primary: #606C38;
-    --clr-accent:#BC6C25;
-    --clr-accent-light:#DDA15E;
+    --clr-accent:#93987C;
+    --clr-accent-light:#c1c7a5;
 
 }
 
@@ -58,11 +58,13 @@ p {
 
 .nav_button{
     padding: 10px;
-    background-color: var(--clr-accent-light);
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
     border: none;
     transition: all 0.3s ease;
     width: 50px;
-    /* color: var(--clr-dark); */
+    margin: 1px;
+    border-radius: 8px;
 }
 .nav_button:hover{
     padding: 10px;
@@ -140,7 +142,6 @@ p {
 
 #blog-bar{
     justify-content: left;
-    background-color: var(--clr-accent-light);
     top: 48px;
 }
 
