@@ -15,21 +15,21 @@ app.config["SECRET_KEY"] = "secret key"
 def home():
     return render_template("index.html")
 
-@app.route("/one")
+@app.route("/panda")
 def one():
-    return render_template("one.html")
+    return render_template("panda.html")
 
-@app.route("/two")
+@app.route("/polar")
 def two():
-    return render_template("two.html")
+    return render_template("polar.html")
 
-@app.route("/three")
+@app.route("/grizzly")
 def three():
-    return render_template("three.html")
+    return render_template("grizzly.html")
 
-@app.route("/four")
+@app.route("/bear-days")
 def four():
-    return render_template("four.html")
+    return render_template("bear-days.html")
 
 @app.errorhandler(404)
 def page_not_found(e):
