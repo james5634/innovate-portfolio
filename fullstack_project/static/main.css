@@ -112,7 +112,7 @@ p {
     position: absolute;
     top: 0;
     right: 0;
-    left: 0;
+    /* left: 0; */
     z-index: 10;
 
     margin: 8px;
@@ -147,6 +147,8 @@ p {
 #head2,#head3{
     background-color: var(--clr-accent);
     height: 48px;
+    display: flex;
+    justify-content: left;
 }
 
 .nav_blog{
@@ -174,7 +176,7 @@ p {
     align-items: center;
 }
 
-.sun_button, .moon_button{
+.light_mode_toggle, .dark_mode_toggle{
     border-radius: 90px;
     padding: 5px;
     border: solid;
@@ -268,23 +270,27 @@ p {
 #hamburger_menu{
     display: none;
     position: fixed;
-    right:25px;
-    top: 4px;
+    right:20px;
+    top: 2px;
     z-index: 100;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
     background-color: #fefae02d;
     border-radius: 90px;
     padding: 10px  10px 5px 10px;
 }
 .float_left_hamburger{
-    transform: translateY(220px);
+    /* transform: translatex(-100px); */
+    border: solid;
+    border-color: var(--clr-dark);
 }
 /* VERY THIN SCREEN */
 @media only screen and (max-width: 490px) {
     #hamburger_menu{
         display: block;
     }
-
+    .float_left{
+        transform: translate(-400px, 60px);
+    }
     .nav_button{
         width: 100%;
     }
