@@ -64,7 +64,6 @@ p {
     transition: all 0.3s ease;
     width: 50px;
     margin: 1px;
-    border-radius: 8px;
 }
 .nav_button:hover{
     padding: 10px;
